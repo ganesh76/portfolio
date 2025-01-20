@@ -135,18 +135,20 @@ function Index() {
       <Head>
         <title>Ganesh&apos;s Portfolio</title>
         <meta name="description" content="Ganesh's personal portfolio website" />
-        <link rel="canonical" href="https://ganesh76.github.io" />
+        <link rel="canonical" href="https://ganesh76.github.io/portfolio" />
 
         <meta property="og:title" content="Ganesh's Portfolio" />
         <meta property="og:description" content="Ganesh's personal portfolio website" />
-        <meta property="og:url" content="https://ganesh76.github.io" />
-        <meta property="og:image" content="/ss.png"></meta>
+        <meta property="og:url" content="https://ganesh76.github.io/portfolio" />
+        <meta property="og:image" content="https://ganesh76.github.io/portfolio/ss.png"></meta>
 
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="Ganesh Gundu" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:locale" content="en_US" />
 <meta name="keywords" content="design, development, web, mobile, android developer, full-stack developer, software engineer, lead software engineer, ganesh, ganesh gundu, javascript, rect, next js, innovator, technologist" />
+<meta name="apple-mobile-web-app-title" content="Ganesh's Portfolio" />
+
 
 
 
