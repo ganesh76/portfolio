@@ -146,7 +146,7 @@ function Index() {
 <meta property="og:site_name" content="Ganesh Gundu" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:locale" content="en_US" />
-<meta name="keywords" content="design, development, web, mobile, android developer, full-stack developer, software engineer, lead software engineer, ganesh, ganesh gundu, javascript, rect, next js, innovator, technologist" />
+<meta name="keywords" content="design, development, web, mobile, android developer, full-stack developer, software engineer, lead software engineer, ganesh, ganesh gundu, javascript, rect, next js, python, fast api, ai/ml, innovator, technologist, github pages, developer portfolio" />
 <meta name="apple-mobile-web-app-title" content="Ganesh's Portfolio" />
 
 
@@ -187,7 +187,7 @@ function Index() {
       )}
       <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />
       {prefix === "" && (<><Analytics /><SpeedInsights /></>)}
-      <GoogleAnalytics gaId="G-MKR7YLXHFF" />
+      <GoogleAnalytics gaId="G-BVDNP6NYQP" />
     </div>
   );
 }
