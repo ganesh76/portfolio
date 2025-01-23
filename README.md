@@ -49,7 +49,7 @@ mindmap
 
 ## 🚀 Demo
 
-Experience the live portfolio at [ganesh76.github.io/portfolio/](https://ganesh76.github.io/portfolio/)
+Experience the live portfolio at [https://ganesh-g.is-a.dev/](https://ganesh-g.is-a.dev/)
 
 ## 📸 Screenshots
 
@@ -62,7 +62,7 @@ Experience the live portfolio at [ganesh76.github.io/portfolio/](https://ganesh7
 1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/ganesh76/portfolio
+git clone https://github.com/ganesh76/portfolio.git
 ```
 
 2️⃣ Navigate to project directory:
