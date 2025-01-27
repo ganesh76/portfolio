@@ -65,13 +65,13 @@ function Logo() {
         </path> */}
 
         {/* Additional Shapes */}
-        <circle cx="25" cy="25" r="5" fill="#CCD6F6">
+        {/* <circle cx="25" cy="25" r="5" fill="#CCD6F6">
           <animate attributeName="r" values="5;7;5" dur="1.5s" repeatCount="indefinite" />
         </circle>
         <circle cx="75" cy="75" r="5" fill="#CCD6F6">
           <animate attributeName="r" values="5;7;5" dur="1.5s" repeatCount="indefinite" />
-        </circle>
-        <polygon points="50,10 60,30 40,30" fill="#CCD6F6">
+        </circle> */}
+        {/* <polygon points="50,10 60,30 40,30" fill="#CCD6F6">
           <animateTransform
             attributeName="transform"
             type="rotate"
@@ -90,7 +90,7 @@ function Logo() {
             dur="4s"
             repeatCount="indefinite"
           />
-        </polygon>
+        </polygon> */}
 
         {/* Glowing Effect */}
         <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">

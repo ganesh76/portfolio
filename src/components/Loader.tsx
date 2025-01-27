@@ -107,7 +107,7 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
               /> */}
 
               {/* Additional Shapes */}
-              <motion.circle
+              {/* <motion.circle
                 cx="25"
                 cy="25"
                 r="5"
@@ -138,7 +138,7 @@ function Loader({ isLoading, setIsLoading }: LoaderProps) {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, rotate: 360 }}
                 transition={{ repeat: Infinity, repeatType: 'reverse', duration: 5, delay: 1 }}
-              />
+              /> */}
 
               {/* Glowing Effect */}
               <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
