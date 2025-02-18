@@ -139,7 +139,8 @@ npm run dev
 
 <div align="center">
 
-MIT License © [Ganesh Gundu](LICENSE)
+MIT License © [Ganesh Gundu](LICENSE) <br/>
+Project Inspired from - [Portfolio](https://github.com/lohitkolluri/Portfolio)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
