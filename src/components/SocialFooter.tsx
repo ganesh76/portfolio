@@ -11,7 +11,7 @@ function SocialFooter() {
     { name: 'NPM', icon: <FontAwesomeIcon icon={faNpm} style={{ width: "20px",
       height: "20px"}} />, link: 'https://www.npmjs.com/package/ganeshg' },
     { name: 'Play Store', icon: <FontAwesomeIcon icon={faGooglePlay} style={{ width: "20px",
-      height: "20px"}} />, link: 'https://play.google.com/store/apps/developer?id=G+Ganesh' },
+      height: "20px"}} />, link: 'https://play.google.com/store/apps/dev?id=5578609037165224327' },
 
   ];
 
