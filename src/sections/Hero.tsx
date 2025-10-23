@@ -57,7 +57,7 @@ function Hero() {
           transition={{ duration: 0.4, ease: 'easeInOut', delay: 1.2 }}
         >
           I&apos;m a software developer focusing on exceptional digital experiences. My interests
-          include DevOps, Cloud, AI/ML, Web and Mobile Development.
+          include Full-Stack Web and Android Mobile Development, DevOps, Cloud, AI/ML.
         </motion.p>
         <motion.div
           className="hero-button"
