@@ -31,18 +31,18 @@ function About() {
 
   const mobileText = {
     intro:
-      'Hello! I am Ganesh Gundu, a design-minded Software Engineer focused on building full-stack web and mobile applications. I have 9 years of professional working experience and I have completed multiple projects with high-quality standards and customer satisfaction',
+      'Hello! I am Ganesh Gundu, a design-minded Software Engineer focused on building full-stack web and mobile applications. I have more than 10 years of professional working experience and I have completed multiple projects with high-quality standards and customer satisfaction',
     experience:
-      'As a Lead Software Engineer at Providence India, I develop and implement full-stack web and mobile experiences with custom UI components. My expertise includes React JS, Next JS, Native Android, Flutter, Python, Cloud platforms - Azure, and frameworks like FastAPI.',
+      'As a Lead Software Engineer at Providence India, I develop and implement full-stack web and mobile experiences with custom UI components. My expertise includes React JS, Next JS, Native Android, Flutter, Python, Cloud platforms - Azure, GCP and frameworks like FastAPI.',
   };
 
 
 
   const desktopText = {
     intro:
-    'Hello! I am Ganesh Gundu, a design-minded Software Engineer focused on building full-stack web and mobile applications. I have more than 9 years of professional working experience and I have completed multiple projects with high-quality standards and customer satisfaction.',
+    'Hello! I am Ganesh Gundu, a design-minded Software Engineer focused on building full-stack web and mobile applications. I have more than 10 years of professional working experience and I have completed multiple projects with high-quality standards and customer satisfaction.',
     experience:
-      'As a Lead Software Engineer at Providence India, I develop and implement full-stack web and mobile experiences with custom UI components. My expertise includes React JS, Next JS, Native Android, Flutter, Python, Azure and frameworks like FastAPI.',
+      'As a Lead Software Engineer at Providence India, I develop and implement full-stack web and mobile experiences with custom UI components. My expertise includes React JS, Next JS, Native Android, Flutter, Python, Azure, GCP and frameworks like FastAPI.',
   };
 
   
