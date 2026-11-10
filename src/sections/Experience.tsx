@@ -38,9 +38,7 @@ function Experience() {
         <div className="exp-details">
           <div className="exp-details-position">
             <h3><span>{selectedExperience.role}</span>
-              <span className="exp-details-position-company">&nbsp;@&nbsp;
-                {selectedExperience.url ? <a href={selectedExperience.url} target="_blank" rel="noopener noreferrer">{selectedExperience.name}</a> : selectedExperience.name}
-              </span>
+              <span className="exp-details-position-company">&nbsp;@&nbsp;{selectedExperience.name}</span>
             </h3>
             <p className="exp-details-range">{selectedExperience.start} - {selectedExperience.end}</p>
             <ul className="exp-details-list">
