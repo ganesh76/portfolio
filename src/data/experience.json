@@ -6,9 +6,8 @@
     "start": "February 2026",
     "end": "Present",
     "shortDescription": [
-      "Driving application architecture and full-stack engineering for AI-powered healthcare solutions.",
-      "Building cloud-native applications and services with React, Next.js, Python, FastAPI, PostgreSQL and Azure Kubernetes Service.",
-      "Exploring agentic AI workflows, LLM-powered experiences, retrieval-augmented generation and orchestration patterns."
+      "Engineering scalable agentic AI platforms transforming healthcare operations at scale, with a focus on cloud-native systems, infrastructure as code, observability, reliability, and distributed architectures.",
+      "Working across Java/Spring Boot, Python, React, AWS, and Amazon Bedrock AgentCore."
     ]
   },
   {
