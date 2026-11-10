@@ -23,13 +23,9 @@ function Hero() {
         </motion.h1>
         <motion.h2 className="hero-title-large" initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: 'easeInOut', delay: 0.8 }}>Ganesh Gundu.</motion.h2>
-        <motion.h3 className="hero-title-large hero-title-sub" initial={{ opacity: 0, y: 5 }}
-          animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, ease: 'easeInOut', delay: 1.0 }}>
-          Staff Software Engineer
-        </motion.h3>
         <motion.p className="hero-text" initial={{ opacity: 0, y: 5 }} animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, ease: 'easeInOut', delay: 1.2 }}>
-          I&apos;m a software engineer at Cohere Health, building cloud-native applications and AI-powered
+          I&apos;m a Staff Software Engineer at Cohere Health, building cloud-native applications and AI-powered
           healthcare experiences. My interests span full-stack engineering, system architecture,
           distributed systems and agentic AI.
         </motion.p>
