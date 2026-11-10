@@ -29,25 +29,17 @@ function About() {
     'Currently, I am a Staff Software Engineer at Cohere Health, working on application architecture and AI-powered healthcare solutions. My experience spans full-stack engineering with React, Next.js, Java, Python and FastAPI, along with cloud platforms and distributed systems.';
 
   return (
-    <motion.div
-      className="about"
-      id="about"
-      ref={ref}
+    <motion.div className="about" id="about" ref={ref}
       style={{ paddingTop: isMobile ? '150px' : '190px' }}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
+      initial="hidden" whileInView="visible" viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      variants={{ visible: { opacity: 1, y: -50 }, hidden: { opacity: 0, y: 0 } }}
-    >
+      variants={{ visible: { opacity: 1, y: -50 }, hidden: { opacity: 0, y: 0 } }}>
       <div className="title"><h2>About Me</h2></div>
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text text-justify">{intro}</p>
           <p className="about-grid-info-text text-justify">{experience}</p>
-          <p className="about-grid-info-text text-justify">
-            Here are a few technologies I&apos;ve been working with recently:
-          </p>
+          <p className="about-grid-info-text text-justify">Here are a few technologies I&apos;ve been working with recently:</p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
             <li className="about-grid-info-list-item">Next.js</li>
@@ -66,5 +58,4 @@ function About() {
     </motion.div>
   );
 }
-
 export default About;

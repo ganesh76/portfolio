@@ -21,41 +21,25 @@ function Experience() {
   }, [selected]);
 
   return (
-    <motion.div
-      className="experience"
-      id="experience"
-      style={{ paddingTop: '250px' }}
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true }}
-      transition={{ duration: 0.6 }}
-      variants={{ visible: { opacity: 1, y: -50 }, hidden: { opacity: 0, y: 0 } }}
-    >
+    <motion.div className="experience" id="experience" style={{ paddingTop: '250px' }}
+      initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ duration: 0.6 }}
+      variants={{ visible: { opacity: 1, y: -50 }, hidden: { opacity: 0, y: 0 } }}>
       <div className="title"><h2>My Work Experience</h2></div>
       <div className="container">
         <ul className="exp-slider">
           <div className="underline"></div>
           {experiences.map((experience, index) => (
-            <li
-              className={`exp-slider-item ${index === selected ? 'exp-slider-item-selected' : ''}`}
-              onClick={() => setSelected(index)}
-              key={`${experience.name}-${index}`}
-            >
+            <li className={`exp-slider-item ${index === selected ? 'exp-slider-item-selected' : ''}`}
+              onClick={() => setSelected(index)} key={`${experience.name}-${index}`}>
               <span>{experience.name}</span>
             </li>
           ))}
         </ul>
         <div className="exp-details">
           <div className="exp-details-position">
-            <h3>
-              <span>{selectedExperience.role}</span>
-              <span className="exp-details-position-company">
-                &nbsp;@&nbsp;
-                {selectedExperience.url ? (
-                  <a href={selectedExperience.url} target="_blank" rel="noopener noreferrer">
-                    {selectedExperience.name}
-                  </a>
-                ) : selectedExperience.name}
+            <h3><span>{selectedExperience.role}</span>
+              <span className="exp-details-position-company">&nbsp;@&nbsp;
+                {selectedExperience.url ? <a href={selectedExperience.url} target="_blank" rel="noopener noreferrer">{selectedExperience.name}</a> : selectedExperience.name}
               </span>
             </h3>
             <p className="exp-details-range">{selectedExperience.start} - {selectedExperience.end}</p>
@@ -70,5 +54,4 @@ function Experience() {
     </motion.div>
   );
 }
-
 export default Experience;
