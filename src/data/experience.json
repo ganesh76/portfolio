@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Cohere Health",
+    "role": "Staff Software Engineer",
+    "url": "https://coherehealth.com/",
+    "start": "February 2026",
+    "end": "Present",
+    "shortDescription": [
+      "Driving application architecture and full-stack engineering for AI-powered healthcare solutions.",
+      "Building cloud-native applications and services with React, Next.js, Python, FastAPI, PostgreSQL and Azure Kubernetes Service.",
+      "Exploring agentic AI workflows, LLM-powered experiences, retrieval-augmented generation and orchestration patterns."
+    ]
+  },
+  {
+    "name": "Providence India",
+    "role": "Lead Software Engineer",
+    "url": "https://www.providence.org/",
+    "start": "October 2022",
+    "end": "February 2026",
+    "shortDescription": [
+      "Led development of full-stack web and mobile applications for the US healthcare domain.",
+      "Leveraged React, Next.js, Python, FastAPI, Azure and cloud-native technologies to deliver scalable solutions.",
+      "Worked across application architecture, integrations and collaboration with cross-functional engineering teams."
+    ]
+  },
+  {
+    "name": "Walmart Global Tech India",
+    "role": "Software Engineer III",
+    "url": "https://tech.walmart.com/",
+    "start": "July 2022",
+    "end": "October 2022",
+    "shortDescription": [
+      "Developed augmented-reality experiences for the Walmart Shopping app using Kotlin and Android.",
+      "Applied MVVM and Clean Architecture principles while contributing to the Emerging Technology team."
+    ]
+  },
+  {
+    "name": "DBS",
+    "role": "Associate",
+    "url": "https://www.dbs.com/",
+    "start": "June 2018",
+    "end": "July 2022",
+    "shortDescription": [
+      "Built and maintained Android banking applications using agile practices, test-driven development and established engineering standards.",
+      "Contributed to a multi-module Android framework adopted across DBS banking applications.",
+      "Developed core application modules including Account Details, User Profile Settings and Credit Card experiences."
+    ]
+  },
+  {
+    "name": "EnterPi",
+    "role": "Android Developer",
+    "url": "",
+    "start": "August 2017",
+    "end": "June 2018",
+    "shortDescription": [
+      "Developed cross-platform mobile applications using React Native and native Android technologies.",
+      "Built a proof-of-concept React Native framework for efficient platform communication.",
+      "Contributed to multiple native Android applications and integrations."
+    ]
+  },
+  {
+    "name": "NumberMall",
+    "role": "Junior Software Engineer",
+    "url": "",
+    "start": "September 2015",
+    "end": "August 2017",
+    "shortDescription": [
+      "Helped migrate Android development from Eclipse to Android Studio and supported adoption of Gradle.",
+      "Developed application features, improved user experience and resolved technical issues with the team."
+    ]
+  }
+]
