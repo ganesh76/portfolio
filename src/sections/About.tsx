@@ -23,10 +23,13 @@ function About() {
   const profilePicPath = publicRuntimeConfig.staticFolder + '/etc/me.webp';
 
   const intro =
-    'Hello! I am Ganesh Gundu, a design-minded Software Engineer focused on building full-stack web and mobile applications. I have more than 11 years of professional working experience across healthcare, fintech and e-commerce, delivering reliable solutions with a focus on quality and customer experience.';
+    'Staff Software Engineer with 11+ years of experience building scalable distributed systems, cloud-native platforms, and full-stack applications across AWS, Azure, and GCP.';
 
-  const experience =
-    'Currently, I am a Staff Software Engineer at Cohere Health, working on application architecture and AI-powered healthcare solutions. My experience spans full-stack engineering with React, Next.js, Java, Python and FastAPI, along with cloud platforms and distributed systems.';
+  const platformExperience =
+    'Experienced in platform engineering, cloud infrastructure, and AI-powered systems, with a focus on delivering reliable, observable, and scalable solutions. Currently working on agentic AI platforms and cloud-native architectures that support intelligent, high-performance applications at scale.';
+
+  const engineeringApproach =
+    'Passionate about solving complex engineering challenges through strong software design, distributed systems principles, and modern cloud technologies.';
 
   return (
     <motion.div className="about" id="about" ref={ref}
@@ -38,7 +41,8 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text text-justify">{intro}</p>
-          <p className="about-grid-info-text text-justify">{experience}</p>
+          <p className="about-grid-info-text text-justify">{platformExperience}</p>
+          <p className="about-grid-info-text text-justify">{engineeringApproach}</p>
           <p className="about-grid-info-text text-justify">Here are a few technologies I&apos;ve been working with recently:</p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
