@@ -43,6 +43,7 @@ function About() {
           <p className="about-grid-info-text text-justify">{intro}</p>
           <p className="about-grid-info-text text-justify">{platformExperience}</p>
           <p className="about-grid-info-text text-justify">{engineeringApproach}</p>
+          {/*
           <p className="about-grid-info-text text-justify">Here are a few technologies I&apos;ve been working with recently:</p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
@@ -50,6 +51,7 @@ function About() {
             <li className="about-grid-info-list-item">Python</li>
             <li className="about-grid-info-list-item">LangChain &amp; LangGraph</li>
           </ul>
+          */}
         </div>
         <div className="about-grid-photo">
           <div className="overlay"></div>
